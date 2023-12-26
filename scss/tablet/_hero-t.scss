@@ -1,0 +1,38 @@
+@media only screen and (max-width: 768px){
+    .hero-section{
+        background-image: none;
+    }
+    
+    .hero{
+        padding-bottom: 256px;
+        flex-direction: column;
+        background-image: url(../images/tablet-hero-bg-img.png);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+
+    .hero__title-wrapper{
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .hero__title{
+        text-align: center;
+        font-size: 64px;
+        line-height: 56px
+    }
+
+    .hero__content{
+        width: 100%;
+    }
+
+    .hero__line{
+        display: none;
+    }
+
+    .hero__text{
+        text-align: center;
+        font-size: 15px;
+        line-height: 28px;
+    }
+}

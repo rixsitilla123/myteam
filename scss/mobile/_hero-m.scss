@@ -1,0 +1,28 @@
+@media only screen and (max-width: 565px){
+    .hero{
+        padding-bottom: 197px;
+        background-image: url(../images/mobile-hero-bg-img.png);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+ 
+    .hero__title-wrapper{
+        margin-bottom: 18px;
+    }
+
+    .hero__title{
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .hero__text{
+        font-size: 15px;
+        line-height: 28px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .hero{
+        background-size: contain;
+    }
+}

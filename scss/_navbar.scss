@@ -1,0 +1,32 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-item{
+    margin-left: 40px;
+}
+
+.navbar-link{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.header-link{
+    width: 153px;
+    margin-left: 577px;
+    padding: 9px 0 11px;
+    display: inline-block;
+    border-radius: 24px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
